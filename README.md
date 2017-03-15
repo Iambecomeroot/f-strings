@@ -1,4 +1,8 @@
-# f-strings
+# percent-f-strings
+
+A fork of [f-strings](https://github.com/hishamhm/f-strings) where the match pattern is `%{}` not `{}` so you don't have to escape every `{}`.
+
+# Original README (note: you will need to change `{}` to `%{}`)
 
 String interpolation for Lua, inspired by f-strings, a form of string interpolation
 [coming in Python 3.6](https://zerokspot.com/weblog/2015/12/31/new-string-formatting-in-python/).

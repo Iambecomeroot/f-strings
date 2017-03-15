@@ -8,7 +8,7 @@ local function f()
    return function()
       local gobo = "GOBO"
       print(u .. " " .. w)
-      print(F"{u} {w} of {gobo}")
+      print(F"%{u} %{w} of %{gobo}")
    end
 end
 

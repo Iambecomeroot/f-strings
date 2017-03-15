@@ -4,6 +4,6 @@ local assert = assert
 local _ENV = {x = "foo"}
 function gee()
    assert("foo" == x)
-   assert("foo" == F'{x}')
+   assert("foo" == F'%{x}')
 end
 gee()
